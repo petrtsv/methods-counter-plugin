@@ -27,4 +27,11 @@
   <extensions defaultExtensionNs="com.intellij">
 
   </extensions>
+  <actions>
+    <action id="HelloIdeaPopup" class="org.petrtsv.methodscounterplugin.HelloIdeaPopup"
+      text="Hello Idea Popup" description="Hello World for IDEA plugins ">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt H"/>
+    </action>
+  </actions>
 </idea-plugin>
