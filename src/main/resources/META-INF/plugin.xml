@@ -28,11 +28,4 @@
   <!-- Extension points defined by the plugin.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
   <vendor email="petsvetkov@constructor.university" url="">Petr Tsvetkov</vendor>
-  <actions>
-    <action id="HelloIdeaPopup" class="org.petrtsv.methodscounterplugin.HelloIdeaPopup"
-      text="Hello Idea Popup" description="Hello World for IDEA plugins ">
-      <add-to-group group-id="ToolsMenu" anchor="last"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt H"/>
-    </action>
-  </actions>
 </idea-plugin>
