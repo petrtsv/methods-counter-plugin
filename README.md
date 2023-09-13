@@ -13,11 +13,11 @@ inside the Kotlin class.
 
 The plugin is written in Kotlin.
 
-### Project structure
+### Project Structure
 
 Intention implementation is located
 [here](src/main/kotlin/org/petrtsv/methodscounterplugin/CountClassMethods.kt).
 
-### Launch instructions
+### Launch Instructions
 
 To launch an IDEA instance with the plugin installed and activated run ` ./gradlew runIde`
