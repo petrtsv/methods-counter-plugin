@@ -10,7 +10,11 @@ import com.intellij.util.castSafelyTo
 import org.jetbrains.kotlin.psi.KtClass
 
 class CountClassMethods : PsiElementBaseIntentionAction(), IntentionAction {
-    override fun getFamilyName() = "Count methods in a class"
+    companion object {
+        const val HINT = "Count methods in a class"
+    }
+
+    override fun getFamilyName() = HINT
 
     override fun getText() = getFamilyName()
 
