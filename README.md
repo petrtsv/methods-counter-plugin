@@ -1,4 +1,4 @@
-# Methods Counter PLugin
+# Methods Counter Plugin
 
 **Petr Tsvetkov ([petsvtekov@constructor.university]())**
 
@@ -21,3 +21,9 @@ Intention implementation is located
 ### Launch Instructions
 
 To launch an IDEA instance with the plugin installed and activated run ` ./gradlew runIde`
+
+### Testing
+
+A unit test was written to check that the plugin displays context action correctly.
+
+To run the unit tests use ` ./gradlew test` command
