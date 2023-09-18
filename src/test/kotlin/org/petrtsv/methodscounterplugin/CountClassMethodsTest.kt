@@ -8,11 +8,12 @@ import org.junit.Assert
 
 class CountClassMethodsTest : BasePlatformTestCase() {
     fun testIntentionAppearsOnlyForKtClassName() {
-        myFixture.configureByText(KotlinFileType.INSTANCE, """
-class Foo {
-  fun foo() {}
-}
-""".trimIndent())
+        myFixture.configureByText(KotlinFileType.INSTANCE,
+                """
+                    class Foo {
+                      fun foo() {}
+                    }
+                """.trimIndent())
         // "class" keyword
         Assert.assertEquals(myFixture.filterAvailableIntentions(CountClassMethods.HINT).size, 0)
         myFixture.editor.moveCaret(7)
